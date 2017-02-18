@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+/*traditional css*/
+/*
+#box{
+    display: block;
+    width:500px;
+    margin:50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid blue;
+    background: orange;
+}*/
+
+/*flex model*/
+#box{
+    display: block;
+    width:500px;
+    margin:50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid blue;
+    background: -webkit-radial-gradient(center, circle, red 0% , orange 50%);
+    /*background: -webkit-linear-gradient(top, black, white);*/
+    /*for rounded corners*/
+    -webkit-border-radius:25px;
+    -webkit-box-shadow:rgba(110,110,110, 0.7) 8px 8px 8px 8px /*inset*/;
+}
+
+#text{
+    font:bold 30px Century Gothic;
+    text-shadow: rgb(110,110,110) 3px 3px 5px;
+}

@@ -1,0 +1,29 @@
+/*p:nth-child(odd){color:green;}
+p:nth-child(even){color:red;}*/
+
+/* *{color:red;}
+
+:not(.satyam){
+    color:blue;}*/
+
+/*
+div > p {
+    color:yellow;
+}
+//all pragraphs having divtag as its parent get this cssstyle
+*/
+
+
+/*
+//it means, if we have a paragraph after another paragraph hving class satyam
+//giving it the color:blue;
+
+p.satyam + p{color:pink;}
+*/
+
+/*
+//it means, if we have a paragraph after another paragraph hving class satyam
+//and there is soe other tag in between giving it the color:red;
+
+p.satyam + p{color:red;}
+*/

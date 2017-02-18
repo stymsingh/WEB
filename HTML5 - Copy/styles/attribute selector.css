@@ -1,0 +1,19 @@
+p[name^="t"]
+{
+    color:blue;
+}
+
+p[name$="u"]
+{
+    color:red;
+}
+
+p[name="atun"]
+{
+    color:yellow;
+}
+
+p[name*="monty"]
+{
+    color:orange;
+}

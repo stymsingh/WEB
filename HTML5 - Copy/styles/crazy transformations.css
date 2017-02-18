@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+#box{
+    display: block;
+    width:500px;
+    margin:50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 7px solid blue;
+    background: yellow;
+    /*to give a border to a border, use outlinee property*/
+    outline:7px solid red;
+    /*-webkit-transform:scale(1,3);*/
+    /*-webkit-transform:rotate(45deg);*/
+    /*-webkit-transform:skew(30deg);*/
+    -webkit-transform:translate(10,3);
+}
+
+
+#text{
+    font: bold 30px Century Gothic;
+
+}

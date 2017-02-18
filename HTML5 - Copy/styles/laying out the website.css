@@ -1,0 +1,89 @@
+/*Uses traditional box model*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	/*font weight, font-size, font-family*/
+	font: bold 20px Tahoma;
+	color:red;
+}
+
+h2{
+	font: bold 14px Tahoma;
+}
+
+//to make all html5 as block to ensure browser compatibility
+header, section, aside,footer, nav, article, hgroup{
+	display:block;
+}
+/*body{
+	text-align:center;
+}*/
+
+#big_wrapper{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	//auto allocates even amount of space to the let and rightmargin
+	text-align: left;
+	padding: 20px;
+}
+
+#top_header{
+	background: yellow;
+	border: 1px solid blue;
+	padding: 20px;
+}
+
+#top_menu
+{
+	background: red;
+	color:white;
+}
+
+#top_menu li
+{
+	//displayy inline-block ensures that the list items are displayed leftt to rightt;
+	display:inline-block;
+	list-style: none;
+	padding:5px;
+	font:bold 14px Tahoma;
+}
+
+#main_section
+{
+	float:left;
+	width:660px;
+	margin: 30px;/* 720 px(30 for left, 30 for ryt)+620, 280 left*/
+}
+
+#side_news{
+	float:left;
+	width: 220px;
+	margin:20px 0px;//20 on topp and 0 on bottomm
+	padding: 30px;
+	background:#66CCCC;
+}
+#footer{
+	clear:both;
+	/*clearr:both makes the element drop below any floated elements that precede it in the document.*/
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+}
+
+article{
+	background: #FFFBCC;
+	border: 1px solid brown;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article footer{
+	text-align: right;
+}
+
+
